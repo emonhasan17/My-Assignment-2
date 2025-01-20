@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* shared-styles */
+.align{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+.dispaly-flex{
+    display: flex;
+}
+
+.quick{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+/* nav-related-styles */
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.menubar{
+    
+    justify-content: space-between;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+}
+.headings{
+    align-items: center;
+}
+.school{
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+}
+.nav-items{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+}
+.home{
+    color: orange;
+
+}
+.about{
+    color: skyblue;
+
+}
+.facilities{
+    color: #05D4DF;
+
+}
+.addmission{
+    color: #5D58EF;
+    
+}
+.nav-contact{
+    padding: 15px 60px;
+    background-color: orange;
+    color: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+}
+.nav-btn{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+.btn-one{
+    display: none;
+}
+.contact{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+/* power-related-styles */
+.power{
+    align-items: center;
+    justify-content: space-between;
+}
+.power-vision{
+    max-width: 670px;
+}
+.power-title{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.empower{
+    color: orange;
+}
+.vision{
+    color: skyblue;
+}
+.power-description{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.power-btn{
+    padding: 15px 50px;
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+
+}
+.enroll{
+    font-weight: bold;
+    font-size: 1.25rem;
+    /* color: #FFFFFF; */
+}
+
+.img-vision{
+   width: 550px;
+}
+
+/* media-querry */
+
+@media screen and (max-width: 576px) {
+    
+  .school{
+    display: none;
+  }
+  .menubar{
+    display: none;
+  }
+  .nav-contact{
+    display: none;
+  }  
+  .btn-one{
+    display: block;
+
+  }
+  .navbar{
+    justify-content: space-between;
+    align-items: center;
+    border: 0.5px solid orange;
+    padding: 12px 16px;
+  }
+
+  /* power-related-styles */
+  .align-two{
+    max-width: 380px;
+    margin: 0 auto;
+
+  }
+  .power{
+    flex-direction: column-reverse;
+    border: 2px solid tomato;
+    margin-top: 30px;
+  }
+  .img-vision{
+    width: 100%;
+
+  }
+  .power-vision{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .power-title{
+    font-weight: bold;
+    font-size: 2.3rem;
+
+
+  }
+  .power-description{
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}
