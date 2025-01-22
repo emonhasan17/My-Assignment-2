@@ -322,8 +322,8 @@
     width: 100%;
     height: 750px;
     gap: 25px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
     
     
 
@@ -538,7 +538,10 @@
     border: 0.5px solid orange;
     padding: 12px 16px;
   }
-
+.our-container{
+    justify-content: center;
+    gap: 30px;
+}
   /* power-related-styles */
   .align-two{
     max-width: 380px;
@@ -623,11 +626,11 @@
     grid-template-columns: repeat(2, 1fr);
     width: 390px;
     gap: 8px;
-    margin-left: 11px;
+    /* margin-left: px; */
 }
 
 .our-story{
-    margin-top: 620px;
+    margin-top: 700px;
     
     font-weight: bold;
     font-size: 1.8rem;
@@ -695,6 +698,7 @@
 .mango{
     flex-direction: column;
     height: auto;
+    align-items: start;
 }
 .pine-apple{
     font-weight: bold;
@@ -709,6 +713,7 @@
     color: white;
     margin-left: 30px;
     margin-top: 25px;
+    margin-right: 35px;
 }
 .guava{
     font-weight: 600;
@@ -737,14 +742,15 @@
 
 
 .banana{
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: 20px;
 }
 .lemon{
     height: 200px;
     margin-top: 35px;
-    margin-right: 220px;
-    
+    /* margin-right: 220px; */
+    margin-left: 35px;
+
 }
 .sweet-potato{
     display: flex;
@@ -752,8 +758,8 @@
     height: auto;
     margin-top: 35px;
     margin-bottom: 30px;
-    margin-right: 170px;
-    ;
+    margin-left: 35px;
+    
 
     
     
