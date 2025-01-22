@@ -95,6 +95,7 @@
     align-items: center;
     justify-content: space-between;
     
+    
 }
 .menubar{
     
@@ -202,7 +203,7 @@
 .standard{
     background-image: url(../assets/bg.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .curriculum-title{
     font-weight: bold;
@@ -296,13 +297,24 @@
 
 /* story-style */
 .our-stories{
+    /* height: 100%; */
+    margin-bottom: -90px;
+    background: linear-gradient( #FFFFFF, #FFFFFF, #fea10140, #fea10140);
+    /* border: 1px solid white; */
+    /* background-image: url(assets/bg.png); */
+    
+}
+.blue{
     background-image: url(assets/bg.png);
+    background-size: 100%;
+    /* border: 2px solid aquamarine; */
+    /* background: linear-gradient( #FFFFFF, #FFFFFF, #FFFFFF, #F0AA00); */
 }
 .our-story{
     font-weight: bold;
     font-size: 3.5rem;
     text-align: center;
-    margin-top: 110px;
+    margin-top: 0px;
     margin-bottom: 80px;
     position: relative;
 }
@@ -328,6 +340,7 @@
     box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     max-width: 620px;
     border-radius: 16px 16px 16px;
+    background-color: white;
     
 }
 .january-img{
@@ -372,6 +385,7 @@
     border: 1px solid rgba(241, 241, 243, 1);
     box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     border-radius: 16px;
+    background-color: white;
 }
 .february-img{
     width: 100%;
@@ -381,6 +395,7 @@
     border: 1px solid rgba(241, 241, 243, 1);
     box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     border-radius: 16px;
+    background-color: white;
 }
 .march-img{
     width: 100%;
@@ -390,6 +405,7 @@
     border: 1px solid rgba(241, 241, 243, 1);
     box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     border-radius: 16px;
+    background-color: white;
 }
 .april-img{
     width: 100%;
@@ -399,6 +415,7 @@
     border: 1px solid rgba(241, 241, 243, 1);
     box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
     border-radius: 16px;
+    background-color: white;
 }
 .may-img{
     width: 100%;
@@ -413,6 +430,7 @@
 
 }
 .view-btn{
+    margin-bottom: 95px;
     padding: 20px 65px;
     background-color: black;
     color: #FFFFFF;
@@ -423,6 +441,73 @@
 .view{
     font-weight: bold;
     font-size: 1.4rem;
+}
+
+
+/* kids-education-styles */
+.pine-apple{
+    font-weight: bold;
+    font-size: 2.6rem;
+    color: white;
+    max-width: 220px;
+}
+.water{
+    font-size: 1.25rem;
+    max-width: 400px;
+    margin-top: 45px;
+    color: white;
+}
+.guava{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+.penut{
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    color: white;
+}
+.tree{
+    list-style: none;
+}
+.way{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: white;
+}
+.eight{
+    background-color: #01ACFD;
+    
+}
+.grapes{
+   width: 80px;
+}
+.mango{
+    justify-content: space-between;
+    height: 450px;
+    align-items: center;
+    font: 1;
+}
+
+.banana{
+    align-items: center;
+    gap: 20px;
+}
+.lemon{
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sweet-potato{
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    
+    
+
 }
 /* media-querry */
 
@@ -531,15 +616,15 @@
 .year{
     grid-template-columns: repeat(2, 1fr);
     width: 390px;
-    gap: 15px;
-    margin-left: 23px;
+    gap: 8px;
+    margin-left: 11px;
 }
 
 .our-story{
-    margin-top: 650px;
+    margin-top: 620px;
     
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     text-align: center;
     margin-bottom: 30px;
     
@@ -579,6 +664,8 @@
     color: #000000;
     margin-left: 23px;
     margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
 
 }
 .view-btn{
@@ -596,5 +683,77 @@
     margin: 40px;
     
 
+}
+
+/* kids-education-styles */
+.mango{
+    flex-direction: column;
+    height: auto;
+}
+.pine-apple{
+    font-weight: bold;
+    font-size: 2.1rem;
+    color: white;
+    max-width: 220px;
+}
+.water{
+    font-size: 1rem;
+    max-width: 400px;
+    /* margin-top: 45px; */
+    color: white;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.guava{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: white;
+}
+.penut{
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.way{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+}
+.eight{
+    background-color: #01ACFD;
+}
+.grapes{
+   width: 80px;
+}
+
+
+.banana{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.lemon{
+    height: 200px;
+    margin-top: 35px;
+    margin-right: 220px;
+    
+}
+.sweet-potato{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-right: 170px;
+    ;
+
+    
+    
+
+}
+.cricket img{
+    margin-top:-15px;
 }
 }
