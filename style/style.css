@@ -454,7 +454,7 @@
 .water{
     font-size: 1.25rem;
     max-width: 400px;
-    margin-top: 45px;
+    margin-top: 30px;
     color: white;
 }
 .guava{
@@ -508,6 +508,12 @@
     
     
 
+}
+.recent{
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: hotpink;
+    color: white;
 }
 /* media-querry */
 
